@@ -96,7 +96,7 @@ const MyBlog = ({ posts }) => {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <link rel="stylesheet" href="/styles.css" />
+        <link rel="stylesheet" href="common/css/styles.css" />
         <link rel="stylesheet" href="https://use.typekit.net/zkz4rdl.css" />
       </Head>
       <div
@@ -136,7 +136,7 @@ const MyBlog = ({ posts }) => {
         </a>
       </div>
 
-      <img id="bottom-logo" src="/logo-white.svg" alt="New World Person" />
+      <img id="bottom-logo" src="common/logo-white.svg" alt="New World Person" />
     </>
   );
 };

@@ -87,7 +87,7 @@ export default function Post({ post }) {
         }
     };
 
-    const imageURL = `/cover-photos/${post.slug}-cover.png`;
+    const imageURL = `common/cover-photos/${post.slug}-cover.png`;
 
     const textRef = useRef(null);
 
@@ -117,11 +117,11 @@ export default function Post({ post }) {
         <>
             <meta charSet="UTF-8" />
             <title>{post.title}</title>
-            <link rel="stylesheet" href="/blog-style.css" />
+            <link rel="stylesheet" href="/common/css/blog-styles.css" />
             <link rel="stylesheet" href="https://use.typekit.net/zkz4rdl.css" />
             <div className="logo-container">
                 <Link href="/">
-                    <img src="/logo-white.svg" alt="Home" />
+                    <img src="common/logo-white.svg" alt="Home" />
                 </Link>
             </div>
             <div className="cover-container">
